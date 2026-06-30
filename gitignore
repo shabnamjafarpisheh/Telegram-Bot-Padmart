@@ -1,0 +1,16 @@
+# secrets / env
+.env
+*.env
+
+# database (don't commit live booking data)
+data/*.db
+data/*.sqlite3
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# os junk
+.DS_Store
